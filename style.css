@@ -3,3 +3,44 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  border: 1px solid black;
+  background: url("pexels-marina-3620913.jpg");
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 5px;
+}
+
+button {
+  position: absolute;
+  top: 90%;
+  right: 50%;
+  transform: translateX(50%);
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: rgb(24, 24, 24);
+  color: white;
+}
+
+.score {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  font-size: 78px;
+  font-weight: bolder;
+}
