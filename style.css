@@ -44,3 +44,23 @@ button {
   font-size: 78px;
   font-weight: bolder;
 }
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.hole {
+  border: solid 3px black;
+  width: 160px;
+  height: 150px;
+  background: url("trash.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
